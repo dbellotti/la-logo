@@ -1,0 +1,49 @@
+@-webkit-keyframes rotation {
+    0%   { -webkit-transform: rotateZ(-60deg) rotateY(0deg); }
+    50%  { -webkit-transform: rotateZ(-60deg) rotateY(180deg); }
+    100% { -webkit-transform: rotateZ(-60deg) rotateY(360deg); }
+}
+@-moz-keyframes rotation {
+    0%   { -moz-transform: rotateZ(-60deg) rotateY(0deg); }
+    50%  { -moz-transform: rotateZ(-60deg) rotateY(180deg); }
+    100% { -moz-transform: rotateZ(-60deg) rotateY(360deg); }
+}
+@keyframes rotation {
+    0%   { transform: rotateZ(-60deg) rotateY(0deg); }
+    50%  { transform: rotateZ(-60deg) rotateY(180deg); }
+    100% { transform: rotateZ(-60deg) rotateY(360deg); }
+}
+
+
+@-webkit-keyframes rotation-2 {
+    0%   { -webkit-transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(0deg); }
+    50%  { -webkit-transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(180deg); }
+    100% { -webkit-transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(360deg); }
+}
+@-moz-keyframes rotation-2 {
+    0%   { -moz-transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(0deg); }
+    50%  { -moz-transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(180deg); }
+    100% { -moz-transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(360deg); }
+}
+@keyframes rotation-2 {
+    0%   { transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(0deg); }
+    50%  { transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(180deg); }
+    100% { transform: translate3d(0, -50px, 2px) rotateZ(45deg) rotateY(360deg); }
+}
+
+
+@-webkit-keyframes rotation-3 {
+    0%   { -webkit-transform: translate3d(0, -100px, 4px) rotateZ(-6deg) rotateY(0deg); }
+    50%  { -webkit-transform: translate3d(0, -100px, 4px) rotateZ(-6deg) rotateY(180deg); }
+    100% { -webkit-transform: translate3d(0, -100px, 4px) rotateZ(-6deg) rotateY(360deg); }
+}
+@-moz-keyframes rotation-3 {
+    0%   { -moz-transform: translate3d(0, -100px, 4px) rotateZ(-6deg) rotateY(0deg); }
+    50%  { -moz-transform: translate3d(0, -100px, 4px) rotateZ(-6deg) rotateY(180deg); }
+    100% { -moz-transform: translate3d(0, -100px, 4px) rotateZ(-6deg) rotateY(360deg); }
+}
+@keyframes rotation-3 {
+    0%   { transform: translateZ(4px) translateY(-100px) rotateZ(-6deg) rotateY(0deg); }
+    50%  { transform: translateZ(4px) translateY(-100px) rotateZ(-6deg) rotateY(180deg); }
+    100% { transform: translateZ(4px) translateY(-100px) rotateZ(-6deg) rotateY(360deg); }
+}
